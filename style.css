@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+   }
 
 /* navbar CSS */
 .navbar{
@@ -107,3 +111,132 @@
     color:#888
 }
 /*************** end of about*/
+
+/* portfolio */
+.portfolio{
+    margin: 4em 0;
+    position: relative; 
+}
+.portfolio h1{
+color:#F97300;
+margin: 2em; 
+}
+
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+    
+}
+/**************** end of portfolio*/ 
+
+/* Blog posts */
+
+.blog{
+    margin: 4em 0;
+    position: relative;
+}
+
+.blog h1{
+    color: #F97300;
+    margin: 2em;
+}
+
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img{
+    width: 100%;
+    height: 10em;
+}
+
+.blog .card-title{
+    color: #F97300;
+}
+
+.blog .card-body{
+    padding: 1em;
+}
+
+/* end of blog posts */
+
+/* team sections */
+.team{
+    margin: 4em 0;
+    position: relative;  
+}
+.team h1{
+    color:#F97300;
+    margin: 2em; 
+}
+.team .item{
+    position: relative; 
+}
+.team .des{
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+}
+
+.team img{
+    width: 100%;
+    height: 150px;
+}
+
+.team .item:hover .des{
+    height: 1%;
+    background: #f973007d;
+    width: 89%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* end of teams */
+
+/* Contact form css */
+.contact-form{
+    margin: 6em 0;
+    position: relative;  
+   }
+   
+   .contact-form h1{
+    padding:2em 1px;
+    color: #F97300; 
+   }
+   .contact-form .right{
+    max-width: 600px;
+   }
+   .contact-form .right .btn-secondary{
+    background:  #F97300;
+    color: #fff;
+    border:0;
+   }
+   .contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+   }
+/* end of contact form  */
+
+/* Floating button  */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1;
+}
+
+.my-float{
+	margin-top:22px;
+}
